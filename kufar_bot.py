@@ -7,8 +7,8 @@ from aiogram import Bot
 BOT_TOKEN = "8391966929:AAHpBPLoI-slusE73N05HXhfJtTAmqSZDLM"
 CHAT_ID = 7140251019
 
-"KUFAR_API_URL = "https://api.kufar.by/search-api/v2/search/rendered-paginated?cat=12020&rgn=18&size=10&sort=lst.d"
-CHECK_INTERVAL = 60
+KUFAR_API_URL = "https://api.kufar.by/search-api/v2/search/rendered-paginated?cat=12020&rgn=18&size=10&sort=lst.d"
+
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=BOT_TOKEN)
